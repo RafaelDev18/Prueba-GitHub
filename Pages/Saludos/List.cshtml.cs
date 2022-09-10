@@ -9,7 +9,7 @@ namespace HolaWeb.App.Frontend.Pages
 {
     public class ListModel : PageModel
     {
-        private string[] saludos = {"Buenos dias", "Buenas tardes", "Buenas noches", "Hasta mañana"};
+        private string[] saludos = {"Buenos dias", "Buenas tardes", "Buenas noches", "Hasta mañana", "Nos vemos luego", "Hasta pronto"};
         public List<string> ListaSaludos{get;set;}
         public void OnGet()
         {
